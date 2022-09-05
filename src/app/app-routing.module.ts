@@ -4,11 +4,11 @@ import { AuthorizationComponent } from 'src/app/components/authorization/authori
 import { ListDeviceComponent } from 'src/app/components/list-device/list-device.component';
 
 const routes: Routes = [
-  { path: "list-device", 
+  { path: "", 
     component: AuthorizationComponent 
   }, 
   {
-    path: "",
+    path: "list-device",
     component: ListDeviceComponent
   }
 ];
