@@ -1,0 +1,20 @@
+<div class="container">
+       <h2>Авторизация</h2>
+       <form #dataForm="ngForm" (ngSubmit)="onSubmit(dataForm.value)">
+              <label>Email: </label>
+              <input placeholder="Email" 
+                     type="email"
+                     name="email"
+                     ngModel
+                     required>
+              <label>Пароль: </label>
+              <input placeholder="Пароль"
+                     name="password"
+                     ngModel
+                     required>
+              <input type="checkbox"
+                     name="personal_data_access"
+                     ngModel> Вы соглашаетесь на обработку персональных данных
+              <button>Войти</button>
+       </form>
+</div>

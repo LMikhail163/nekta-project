@@ -1,0 +1,15 @@
+<div class="container">
+    <h2>Список устройств</h2>
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>last_active</td>
+        </tr>
+        <tr *ngFor="let data of dataList">
+            <td>{{data.id}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.last_active | date: "d.MM.y h:mm" }}</td>
+        </tr>
+    </table>
+</div>

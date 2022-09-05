@@ -1,0 +1,6 @@
+{
+    "*": {
+        "target": "https://core.nekta.cloud/api/auth/login",
+        "secure": false
+    }
+}
